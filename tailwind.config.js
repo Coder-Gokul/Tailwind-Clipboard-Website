@@ -17,10 +17,10 @@ module.exports = {
       fontFamily:{
         sans: ['Bai Jamjuree','sans-sarif'],
       },
-      backgroundImage:{
-        'hero-pattern-desktop': "url('./images/bg-header-desktop.png')",
-        'hero-pattern-mobile': "url('./images/bg-header-mobile.png')"
-      },
+      // backgroundImage:{
+      //   'hero-pattern-desktop': "url('./images/bg-header-desktop.png')",
+      //   'hero-pattern-mobile': "url('./images/bg-header-mobile.png')"
+      // },
     },
   },
   plugins: [],
