@@ -644,6 +644,18 @@ h5 {
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
 
+.bg-hero-pattern-mobile {
+  background-image: url('../images/bg-header-mobile.png');
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
 .py-16 {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -736,7 +748,7 @@ h5 {
   }
 }
 
-body {
+/* body {
   background-image: url('images/bg-header-desktop.png');
   background-repeat: no-repeat;
   background-size: contain;
@@ -746,7 +758,7 @@ body {
   body {
     background-image: url('images/bg-header-mobile.png');
   }
-}
+} */
 
 .ficon:hover{
   filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg) brightness(101%) contrast(94%);
@@ -806,6 +818,10 @@ body {
     --tw-space-x-reverse: 0;
     margin-right: calc(6rem * var(--tw-space-x-reverse));
     margin-left: calc(6rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .md\:bg-hero-pattern-desktop {
+    background-image: url('../images/bg-header-desktop.png');
   }
 
   .md\:pl-16 {
